@@ -1,0 +1,17 @@
+未分類
+記事タイトル（未分類）
+titlepic.jpg
+<span class="font730480">見出し１<br>
+</span><br>
+#image=minipic.jpg
+<span class="font030480">記事本文１記事本文１記事本文１<br>
+</span><span class="font830480">見出し２</span><span class="font030480"><br>
+記事本文２</span><span class="font930480">記事本文２記事本文２</span><span class="font030480">記事本文２記事本文２記事本文２記事本文２<br>
+</span><span class="font830480">見出し２</span><span class="font030480"><br>
+記事本文２記事本文２記事本文２記事本文２</span><span class="font930480">記事本文２記事本文２</span><span class="font030480">記事本文２<br>
+</span><span class="font1030480">見出し３</span><span class="font030480"><br>
+記事本文３記事本文３記事本文３記事本文３記事本文３記事本文３記事本文３<br>
+#image=otherpic.jpg
+</span><span class="font630480">見出し４</span><span class="font030480"><br>
+記事本文４</span><span class="font1130480">記事本文４記事本文４</span><span class="font030480">記事本文４記事本文４記事本文４記事本文４記事本文４</span><br>
+

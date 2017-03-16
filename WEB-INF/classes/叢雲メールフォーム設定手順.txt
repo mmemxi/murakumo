@@ -1,0 +1,44 @@
+===================================================
+叢雲メールフォーム設定手順
+===================================================
+
+叢雲システムのメールフォームは、JavaMailを利用しています。
+メールの送信元・送信先・サーバー等の情報は、モジュールの中に埋め込まれていますので、内容を書き換える際には、以下の手順でコンパイル・配置してください。
+
+
+--------------------------------------------------------------------
+(1)サーバー上のディレクトリ構成
+
+①ルートディレクトリ
+   /var/lib/tomcat8/webapps/murakumo
+  →叢雲本体(index.jsp)、メールフォーム(mailform.html)
+
+②記事データ
+   /var/lib/tomcat8/webapps/murakumo/article
+  →index.txt、seo.txt、murakumo.cssを含む
+
+③記事で使う画像データ
+   /var/lib/tomcat8/webapps/murakumo/article/images
+
+④JavaMail関係
+   /var/lib/tomcat8/webapps/murakumo/WEB-INF
+   →web.xml（サーブレットの定義、固定）
+
+   /var/lib/tomcat8/webapps/murakumo/WEB-INF/lib
+   →mail.jar、activation.jar　（JavaMailの必須モジュール、固定）
+
+   /var/lib/tomcat8/webapps/murakumo/WEB-INF/classes
+   →RequestMail.class（コンパイルして生成されるモジュール）
+
+--------------------------------------------------------------------
+(2)モジュールの修正
+対象モジュールは、RequestMail.javaです。
+
+
+
+
+
+
+ポート開放
+Amazon SES申請
+
