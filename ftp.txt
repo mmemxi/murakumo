@@ -1,7 +1,0 @@
-open 192.168.0.4
-root
-b10041
-ascii
-pwd
-bye
-ユーザーmmemxi01によって追加された行
