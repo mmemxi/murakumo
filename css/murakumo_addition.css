@@ -34,7 +34,8 @@ li.date {
     margin-top: -0.6em;  
 //  margin-left: -20px;  	//	@fix 2017/2 commentout
 //  padding-left: 20px;		//	@fix 2017/2 commentout
-    background: #fff;		//  @fix 2017/2 background: #fff url(img/clock-icon2-14x14.png) no-repeat;
+//  background: #fff url(img/clock-icon2-14x14.png) no-repeat;
+    background-color: #ffffff;		//  @fix 2017/2 background: #fff url(img/clock-icon2-14x14.png) no-repeat;
 }
 ul.post-meta.list-inline {
     margin-bottom: 50px;  
