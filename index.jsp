@@ -674,7 +674,10 @@ out.println("<script src=\""+baseURL+"js/html5.js\" type=\"text/javascript\"></s
 %>
 <![endif]-->
 
-<link rel='stylesheet' id='themonic-style-css'  href='./css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='themonic-style-css'  href='./css/murakumo.css' type='text/css' media='all' />
+<link rel='stylesheet' id='themonic-style-css'  href='./css/murakumo_pc.css' type='text/css' media='all' />
+<link rel='stylesheet' id='themonic-style-css'  href='./css/murakumo_print.css' type='text/css' media='all' />
+<link rel='stylesheet' id='themonic-style-css'  href='./css/murakumo_addition.css' type='text/css' media='all' />
 <!--[if lt IE 9]>
 <%
 out.println("<link rel='stylesheet' id='themonic-ie-css'  href='"+baseURL+"css/ie.css?ver=20130305' type='text/css' media='all' />");
@@ -707,6 +710,18 @@ function BootMurakumo()
 			}
 		}
 	}
+function GetURLVars()
+{
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}
 </script>
 </head>
 

@@ -1,0 +1,102 @@
+div#main {
+    background-color: #f9f9f9;
+}
+
+div#content {
+    /* background-color: #ffffff; */
+}
+.wrap{margin: 0 auto;width: 89%;padding-top: 3%;}
+
+.breadcrumb {
+    overflow: hidden;  
+    font-size: 12px;  
+    line-height: 22px;
+}
+
+.breadcrumb li.home {
+    float: left;  
+    margin-left: 10px;
+    background: url(img/home-icon-14x14.png)left no-repeat;
+    padding-left: 18px;
+}
+.site-info {
+    width: 95%;
+    text-align: right;
+}
+.ifr {
+    margin: 0 1cm;
+}
+div#page {
+    background-color: #f9f9f9;
+}
+li.date {
+    float: left;  
+    margin-top: -0.6em;  
+//  margin-left: -20px;  	//	@fix 2017/2 commentout
+//  padding-left: 20px;		//	@fix 2017/2 commentout
+    background: #fff;		//  @fix 2017/2 background: #fff url(img/clock-icon2-14x14.png) no-repeat;
+}
+ul.post-meta.list-inline {
+    margin-bottom: 50px;  
+    border-top: 1px #efefef solid;
+}
+.breadcrumb li {
+    float: left;  
+    margin-left: 10px;
+    background: url(img/folder-icon-14x14.png)left no-repeat;
+    padding-left: 18px;
+}
+p.read-more {
+	width:77px;
+    background-color: #16A1E7;
+	padding: 4px 20px;
+}
+p.read-more a{
+	color:#fff;
+}
+.entry-content img,
+.excerpt-thumb {
+    float: right;
+    margin-left: 15px;
+}
+.entry-content,
+.entry-summary {
+    margin: 0px;		//	@fix 2017/2/20 40px->0px
+}
+p.read-more {
+    font-size: 100%;
+}
+.post-cta {
+    border-top: 5px solid #383838;
+}
+
+h4.cta-post-title {
+    padding: 40px 45px;  text-align: center;  
+    font-size: 30px;  margin-bottom: 14px;  
+    line-height: 1.5em;
+    border-bottom: 1px solid #e5e5e5;
+}
+.post-cta .post-cta-img {
+  float: right;
+  width: 230px;
+  margin: 0 0 20px 30px;
+}
+#main .post-cta .post-cta-btn a {
+    background: url(img/download.png) no-repeat;
+    display: block;  
+    padding: 36px;  
+    width: 60%;  
+    margin: 0 auto 20px;
+}
+#main .post-cta .post-cta-cont ul li {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.post-cta-cont {
+    line-height: 1.5em;
+}
+
+.post-cta-cont ul {
+    margin: 10px 0 !important;
+}
