@@ -164,7 +164,7 @@
 	border-bottom:2px #ffffff solid;
 	height:30px;
 	margin:4px;
-	padding:6px;
+	padding:4px;		//	@fix 2017/3/26 6px->4px
 	max-width:90%;
 	}
 .FieldAreas
@@ -176,7 +176,7 @@
 	border-right:2px #eeeeee solid;
 	border-bottom:2px #ffffff solid;
 	margin:4px;
-	padding:12px;
+	padding:6px;		//	@fix 2017/3/26 12px->6px
 	max-width:90%;
 	}
 .formbox
@@ -193,4 +193,5 @@
 	margin:2px;
     color: #FFFFFF;
     min-width: 120px;
+	cursor:pointer;
 	}
